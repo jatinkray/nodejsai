@@ -1,4 +1,4 @@
-# nodejsai
+# Node JS Application Insights Sample App
 
 https://docs.microsoft.com/en-us/azure/azure-monitor/app/nodejs#sdk
 
