@@ -10,7 +10,7 @@ var usersRouter = require('./routes/users');
 var app = express();
 
 const appInsights = require("applicationinsights");
-appInsights.setup("<Your instrumentation Key>")
+appInsights.setup(process.env.INSTRUMENTATION_KEY)
 .setAutoCollectConsole(true, true);
 appInsights.start();
 
